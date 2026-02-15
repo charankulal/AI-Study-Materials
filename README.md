@@ -143,21 +143,6 @@ This is an educational resource. Contributions that improve clarity, add example
 
 Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines on:
 
-- How to submit contributions
-- Content quality standards
-- Writing style guidelines
-- Review process
-- Getting started ideas
-
-**Quick Start:**
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Make your changes following our guidelines
-4. Submit a Pull Request
-
-We appreciate all contributions, from fixing typos to adding new sections!
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
