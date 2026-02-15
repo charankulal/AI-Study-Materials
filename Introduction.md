@@ -1,5 +1,19 @@
 # AI : Artificial Intelligence
 
+## 📚 Detailed Study Guides
+
+This introduction provides an overview of AI concepts. For in-depth explanations with examples, diagrams, and detailed walkthroughs, explore our comprehensive guides:
+
+1. **[Machine Learning Fundamentals](docs/01-Machine-Learning-Fundamentals.md)** - Training vs Inference, Supervised/Unsupervised Learning, Classification, Regression
+2. **[Deep Learning](docs/02-Deep-Learning.md)** - Neural Networks, Backpropagation, When to Use Deep Learning
+3. **[Neural Network Architectures](docs/03-Neural-Network-Architectures.md)** - FFNN, CNN, RNN, Transformer - choosing the right architecture
+4. **[Large Language Models](docs/04-Large-Language-Models.md)** - How LLMs work, Training process, Capabilities and Limitations
+5. **[Generative AI](docs/05-Generative-AI.md)** - Text, Image, Video generation, Applications and Ethics
+6. **[AI Agents and Agentic AI](docs/06-AI-Agents-and-Agentic-AI.md)** - Autonomous systems, Tool usage, Multi-agent architectures
+7. **[ML Tools and Frameworks](docs/08-ML-Tools-and-Frameworks.md)** - Python, Pandas, Scikit-learn, PyTorch, TensorFlow
+
+---
+
 ## Overview
 
 Artificial Intelligence (AI) is a comprehensive field of computer science where machines are trained to perform cognitive tasks that humans naturally excel at. These tasks include pattern recognition, visual perception, natural language processing, decision-making, and problem-solving. Rather than being explicitly programmed with rules for every scenario, AI systems learn from data and experience to improve their performance over time.
@@ -28,6 +42,8 @@ AI encompasses more than just machine learning. Traditional AI systems can be bu
 These approaches are deterministic, interpretable, and don't require training data, but they lack the adaptability and generalization capabilities of machine learning systems.
 
 ## Machine Learning Deep Dive
+
+> 💡 **For detailed explanations with examples**, see [Machine Learning Fundamentals](docs/01-Machine-Learning-Fundamentals.md)
 
 ### Training vs Inference
 
@@ -103,6 +119,8 @@ The machine learning ecosystem relies on several powerful tools and libraries:
 
 ## Deep Learning
 
+> 💡 **For detailed explanations**, see [Deep Learning](docs/02-Deep-Learning.md) and [Neural Network Architectures](docs/03-Neural-Network-Architectures.md)
+
 ### Key Characteristics
 
 Deep learning distinguishes itself through several critical features:
@@ -160,15 +178,19 @@ Different neural network architectures are designed for different types of probl
 Deep learning requires specialized frameworks and hardware:
 
 **Frameworks:**
+
 - **PyTorch** (developed by Meta/Facebook): Popular for research and production due to its intuitive, Pythonic interface and dynamic computation graphs. Preferred by researchers for experimentation and increasingly used in industry.
 - **TensorFlow** (developed by Google): Comprehensive ecosystem with strong deployment tools. Offers both high-level APIs (Keras) for beginners and low-level APIs for advanced users. Excellent for production deployment at scale.
 
 **Hardware Requirements:**
+
 - **GPUs (Graphics Processing Units)**: Essential for training deep learning models due to their ability to perform thousands of parallel computations. NVIDIA GPUs dominate the market (CUDA support).
 - **TPUs (Tensor Processing Units)**: Google's specialized AI accelerators, even faster than GPUs for specific operations.
 - Training large models can take days or weeks even on powerful hardware, requiring significant computational investment.
 
 ## Generative AI
+
+> 💡 **For detailed explanations**, see [Generative AI](docs/05-Generative-AI.md)
 
 ### What It Does
 
@@ -216,6 +238,8 @@ Understanding the fundamental differences between traditional and generative AI:
 | **Interpretability** | Often more interpretable (especially simpler models) | Generally black-box, difficult to explain specific outputs |
 
 ## Large Language Models (LLMs)
+
+> 💡 **For detailed explanations**, see [Large Language Models](docs/04-Large-Language-Models.md)
 
 ### How They Work
 
@@ -274,6 +298,8 @@ Despite their impressive capabilities, LLMs have fundamental constraints:
 - **Biases**: Reflect biases present in training data (societal, cultural, historical).
 
 ## AI Agents and Agentic AI
+
+> 💡 **For detailed explanations**, see [AI Agents and Agentic AI](docs/06-AI-Agents-and-Agentic-AI.md)
 
 ### AI Agent
 
@@ -361,3 +387,19 @@ Critical distinctions between content generation and autonomous action:
 | **Real-World Impact** | Creates artifacts for human consumption | Takes actions that change state in systems (databases, calendars, communications) |
 
 **Key Insight**: Generative AI is a **component** within Agentic AI systems. Agentic AI uses generative capabilities (LLMs) for understanding, reasoning, and generating text, but combines them with tool usage, memory, and autonomous planning to accomplish complex, multi-step real-world tasks.
+
+---
+
+## 📖 Explore Detailed Guides
+
+Ready to dive deeper? Explore our comprehensive study guides:
+
+- **[Machine Learning Fundamentals](docs/01-Machine-Learning-Fundamentals.md)** - Complete guide to ML concepts, training, and learning types
+- **[Deep Learning](docs/02-Deep-Learning.md)** - Neural networks, backpropagation, and when to use deep learning
+- **[Neural Network Architectures](docs/03-Neural-Network-Architectures.md)** - FFNN, CNN, RNN, Transformer explained in detail
+- **[Large Language Models](docs/04-Large-Language-Models.md)** - How ChatGPT and similar models work
+- **[Generative AI](docs/05-Generative-AI.md)** - Creating content with AI across multiple modalities
+- **[AI Agents and Agentic AI](docs/06-AI-Agents-and-Agentic-AI.md)** - Autonomous systems that plan and execute
+- **[ML Tools and Frameworks](docs/08-ML-Tools-and-Frameworks.md)** - Practical tools: Python, Pandas, PyTorch, TensorFlow
+
+[← Back to README](README.md)
